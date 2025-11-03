@@ -3,6 +3,7 @@ using System.Xml.Schema;
 using System.Xml;
 using Newtonsoft.Json;
 using System.IO;
+using System.Net;
 
 
 
@@ -66,7 +67,7 @@ namespace ConsoleApp1
     {
         try
         {
-            using (var client = new System.Net.WebClient())
+            using (WebClient client = new WebClient())
             {
                 string xmlContent = client.DownloadString(xmlUrl);
                 XmlDocument doc = new XmlDocument();
