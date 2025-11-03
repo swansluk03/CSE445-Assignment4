@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel> <!-- Should be <Hotels> -->
+  <Hotel>
+    <!-- Error 2: Required Name element is missing -->
+    <Address>
+      <Number>100</Number>
+      <Street>Desert View Dr</Street>
+      <City>Grand Canyon Village</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+      <NearestAirport>GCN</NearestAirport>
+    </Address>
+    <Phone>928-638-3333</Phone>
+    <Rating>4.7</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Arizona Biltmore</Name>
+    <Address>
+      <Number>2400</Number>
+      <Street>E Missouri Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Phone>602-955-6600</Phone>
+    <Phone>888-955-7695</Phone>
+    <Rating>4.5</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Hotel Valley Ho</Name>
+    <!-- Error 3: Phone element missing -->
+    <Address>
+      <Number>6850</Number>
+      <Street>E Main St</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Rating>4.6</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>The Phoenician</Name>
+    <!-- Error 4: Address element missing closing tag -->
+    <Address>
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85018</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    <!-- Missing </Address> -->
+    <Phone>480-941-8200</Phone>
+    <Rating>4.8</Rating>
+  </Hotel>
+  <Hotel>
+    <!-- Error 5: Two Name elements for one hotel -->
+    <Name>L'Auberge de Sedona</Name>
+    <Name>Enchantment Resort</Name>
+    <Address>
+      <Number>525</Number>
+      <Street>Boynton Canyon Rd</Street>
+      <City>Sedona</City>
+      <State>AZ</State>
+      <Zip>86336</Zip>
+      <NearestAirport>FLG</NearestAirport>
+    </Address>
+    <Phone>928-282-2900</Phone>
+    <Rating>4.7</Rating>
+  </Hotel>
+</Hotel>

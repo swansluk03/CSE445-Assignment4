@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <Hotel>
+    <Name>Grand Canyon Resort</Name>
+    <Address>
+      <Number>100</Number>
+      <Street>Desert View Dr</Street>
+      <City>Grand Canyon Village</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+      <NearestAirport>GCN</NearestAirport>
+    </Address>
+    <Phone>928-638-3333</Phone>
+    <Rating>4.7</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Arizona Biltmore</Name>
+    <Address>
+      <Number>2400</Number>
+      <Street>E Missouri Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Phone>602-955-6600</Phone>
+    <Phone>888-955-7695</Phone>
+    <Rating>4.5</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Hotel Valley Ho</Name>
+    <Address>
+      <Number>6850</Number>
+      <Street>E Main St</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Phone>480-376-2600</Phone>
+    <Rating>4.6</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>The Phoenician</Name>
+    <Address>
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85018</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Phone>480-941-8200</Phone>
+    <Rating>4.8</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>L'Auberge de Sedona</Name>
+    <Address>
+      <Number>301</Number>
+      <Street>L'Auberge Ln</Street>
+      <City>Sedona</City>
+      <State>AZ</State>
+      <Zip>86336</Zip>
+      <NearestAirport>FLG</NearestAirport>
+    </Address>
+    <Phone>928-282-1661</Phone>
+    <Rating>4.7</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Enchantment Resort</Name>
+    <Address>
+      <Number>525</Number>
+      <Street>Boynton Canyon Rd</Street>
+      <City>Sedona</City>
+      <State>AZ</State>
+      <Zip>86336</Zip>
+      <NearestAirport>FLG</NearestAirport>
+    </Address>
+    <Phone>928-282-2900</Phone>
+  </Hotel>
+  <Hotel>
+    <Name>Westward Look Wyndham</Name>
+    <Address>
+      <Number>245</Number>
+      <Street>E Ina Rd</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85704</Zip>
+      <NearestAirport>TUS</NearestAirport>
+    </Address>
+    <Phone>520-297-1151</Phone>
+    <Rating>4.4</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>JW Marriott Desert Ridge</Name>
+    <Address>
+      <Number>5350</Number>
+      <Street>E Marriott Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Phone>480-293-5000</Phone>
+    <Phone>480-293-3981</Phone>
+  </Hotel>
+  <Hotel>
+    <Name>Omni Scottsdale Resort & Spa</Name>
+    <Address>
+      <Number>4949</Number>
+      <Street>E Lincoln Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Phone>480-627-3200</Phone>
+    <Rating>4.6</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>KINN Guesthouse</Name>
+    <Address>
+      <Number>399</Number>
+      <Street>Old Main St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Phone>480-555-0101</Phone>
+  </Hotel>
+  <Hotel>
+    <Name>Mountain Shadows</Name>
+    <Address>
+      <Number>5445</Number>
+      <Street>E Lincoln Dr</Street>
+      <City>Paradise Valley</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+      <NearestAirport>PHX</NearestAirport>
+    </Address>
+    <Phone>480-624-5400</Phone>
+    <Rating>4.7</Rating>
+  </Hotel>
+</Hotels>
