@@ -77,6 +77,7 @@
       <NearestAirport>FLG</NearestAirport>
     </Address>
     <Phone>928-282-2900</Phone>
+    <Rating>4.7</Rating>
   </Hotel>
   <Hotel>
     <Name>Westward Look Wyndham</Name>
@@ -103,6 +104,7 @@
     </Address>
     <Phone>480-293-5000</Phone>
     <Phone>480-293-3981</Phone>
+    <Rating>4.5</Rating>
   </Hotel>
   <Hotel>
     <Name>Omni Scottsdale Resort &amp; Spa</Name>
@@ -128,6 +130,7 @@
       <NearestAirport>PHX</NearestAirport>
     </Address>
     <Phone>480-555-0101</Phone>
+    <Rating>4.3</Rating>
   </Hotel>
   <Hotel>
     <Name>Mountain Shadows</Name>
