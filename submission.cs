@@ -19,9 +19,9 @@ namespace ConsoleApp1
 
     public class Program
     {
-        public static string xmlURL = "Your XML URL";
-        public static string xmlErrorURL = "Your Error XML URL";
-        public static string xsdURL = "Your XSD URL";
+        public static string xmlURL = "https://raw.githubusercontent.com/swansluk03/CSE445-Assignment4/main/Hotels.xml";
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/swansluk03/CSE445-Assignment4/main/HotelErrors.xml";
+        public static string xsdURL = "https://raw.githubusercontent.com/swansluk03/CSE445-Assignment4/main/Hotels.xsd";
 
         public static void Main(string[] args)
         {
@@ -38,21 +38,48 @@ namespace ConsoleApp1
         }
 
         // Q2.1
-        public static string Verification(string xmlUrl, string xsdUrl)
+    public static string Verification(string xmlUrl, string xsdUrl)
+    {
+        try
         {
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.Schemas.Add(null, xsdUrl);
+            settings.ValidationType = ValidationType.Schema;
 
+            string errorMsg = "No Error";
+            settings.ValidationEventHandler += (sender, e) => { errorMsg = e.Message; };
 
-            //return "No Error" if XML is valid. Otherwise, return the desired exception message.
+            using (XmlReader reader = XmlReader.Create(xmlUrl, settings))
+            {
+                while (reader.Read()) { }
+            }
+
+            return errorMsg;
         }
-
-        public static string Xml2Json(string xmlUrl)
+        catch (Exception ex)
         {
-            
-
-            // The returned jsonText needs to be de-serializable by Newtonsoft.Json package. (JsonConvert.DeserializeXmlNode(jsonText))
-            return jsonText;
-
+            return ex.Message;
         }
+    }
+
+    public static string Xml2Json(string xmlUrl)
+    {
+        try
+        {
+            using (var client = new System.Net.WebClient())
+            {
+                string xmlContent = client.DownloadString(xmlUrl);
+                XmlDocument doc = new XmlDocument();
+                doc.LoadXml(xmlContent);
+                string jsonText = JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.Indented);
+                return jsonText;
+            }
+        }
+        catch (Exception ex)
+        {
+            return ex.Message;
+        }
+    }
     }
 
 }
